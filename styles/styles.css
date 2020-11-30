@@ -1,0 +1,33 @@
+@import url('https://use.typekit.net/fsp3bbz.css');
+
+body, html {
+  font-family: nimbus-sans, sans-serif;
+  font-size: 100%;
+  line-height: 1.25;
+  color: #333;
+}
+
+a {
+  color: #333 !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a.navbar-item h1 {
+  margin: 0;
+  font-family: ff-spinoza-web-pro, serif;
+  font-size: 5rem !important;
+  font-weight: 500;
+  line-height: 1;
+  color: #121212;
+  text-align: left;
+}
+
+a.navbar-item {
+  font-family: eb-garamond, serif;
+  font-size: 1.125rem !important;
+  font-weight: 500 !important;
+  color: #121212 !important;
+}
