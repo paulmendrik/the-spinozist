@@ -9,16 +9,15 @@ import {Date, RichText} from "prismic-reactjs";
 
 const Blog = ({ posts }) => (
     <DefaultLayout>
-        <Container>
+        <Container className="listing">
 
             { posts.results.map((post) => (
                 <article key={post.uid}>
-                    <div className="meta">
+
                        <h1><Link href={hrefResolver(post)} as={linkResolver(post)} passHref>
                             <a>{RichText.asText(post.data.title)}</a>
                         </Link>
                        </h1>
-                    </div>
                     <div className="excerpt">{RichText.render(post.data.intro)}</div>
                     <p className="date">{Date(post.data.date).toDateString()}</p>
                 </article>

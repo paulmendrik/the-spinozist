@@ -21,137 +21,162 @@ nav.navbar {
 
 a.navbar-item h1 {
   margin: 0;
-  font-family: ff-spinoza-web-pro, serif;
+  font-family: trajan-pro-3, serif;
   font-size: 5rem !important;
   font-weight: 500;
   line-height: 1;
-  color: #121212;
+  color: #2a2a2a;
   text-align: left;
 }
 
 a.navbar-item {
-  font-family: eb-garamond, serif;
+  font-family: libre-franklin, sans-serif !important;
   font-size: 1.125rem !important;
   font-weight: 500 !important;
-  color: #121212 !important;
+  color: #2a2a2a !important;
 }
 
 blockquote  {
-  margin:  0 !important;
-  margin-bottom: 3rem !important;
+  margin:  3rem 0 !important;
   background: none !important;
   font-style: normal !important;
 }
 
 blockquote h3 {
-  font-family: orpheuspro, serif !important;
+  font-family: linotype-didot, serif !important;
   font-size: 1.75rem !important;
   font-weight: 500 !important;
   line-height: 1.3;
-  color: #696969;
+  color: #2a2a2a;
 }
 
 blockquote p  {
   margin-top: 1rem !important;
   margin-bottom: 0 !important;
-  font-family: orpheuspro, serif !important;
+  font-family: linotype-didot, serif !important;
   font-size: 1.5rem !important;
   font-weight: bold !important;
   line-height: 1.3;
-  color: #696969;
+  color: #2a2a2a;
 }
 
-article .meta h1 {
+.listing > article {
+  margin: 1.5rem 0 !important;
+  border-bottom: 1px #d5d5d5 solid;
+}
+
+.listing > article  h1 {
+  padding: 0 !important;
+  padding-bottom: 0.5rem !important;
   margin: 0 !important;
-  font-family: orpheuspro, serif !important;
-  font-size: 2.5rem !important;
-  font-weight: 600 !important;
-  line-height: 2 !important;
-  word-spacing: 0.02rem !important;
-  letter-spacing: 0.028rem  !important;
-  color: #333;
+  font-family: linotype-didot, serif !important;
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  line-height: 1.1 !important;
+  color: #2a2a2a;
 }
 
-article p{
+.listing > article > .excerpt p {
   margin-bottom: 1.125rem !important;
   margin-top: 0.25rem !important;
-  font-family: orpheuspro, serif !important;
+  font-family: neue-haas-grotesk-text !important;
   font-weight: normal;
-  letter-spacing: 0.028rem ;
+  font-size: 1rem !important;
+  line-height: 1.3 !important;
+  color: #2a2a2a !important;
+}
+
+.listing > article > p.date {
+  font-family: neue-haas-grotesk-text !important;
+  font-size: 0.8125rem !important;
+  font-weight: normal !important;
+  line-height: 1.3 !important;
+  color: #111 !important;
+}
+
+article  h1 {
+  padding: 0 !important;
+  padding-bottom: 1rem !important;
+  margin: 0 !important;
+  margin-top: 2rem !important;
+  font-family: linotype-didot, serif !important;
+  font-size: 3.5rem !important;
+  font-weight: bold !important;
+  line-height: 1.1 !important;
+  color: #2a2a2a;
+}
+
+article p {
+  margin: 0 !important;
+  padding-bottom: 1.5rem !important;
+  font-family: neue-haas-grotesk-text !important;
+  font-weight: normal;
   font-size: 1.25rem !important;
   line-height: 1.75 !important;
-  color: #121212 !important;
+  color: #2a2a2a !important;
 }
 
 
 p.date {
-  font-family: orpheuspro, serif;
+  font-family: libre-franklin, sans-serif !important;
   font-size: 1rem !important;
-  font-weight: bold !important;
-  line-height: 1.5 !important;
-  color: #121212 !important;
+  font-weight: normal !important;
+  line-height: 1.25 !important;
+  color: #666 !important;
 }
 
 .excerpt p{
   display: -webkit-box;
-  margin: 0 0 1rem 0 !important;
-  font-family: orpheuspro, serif !important;
-  font-weight: 400 !important;
-  font-size: 1.25rem !important;
-  line-height: 1.75 !important;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  color: #666 !important;
 }
 
 article h2 {
-  font-family: orpheuspro, serif;
-  font-weight: 500;
-  font-size: 1.75rem !important;
-  line-height: 1 !important;
-  color: #333;
+  margin: 0 0 1rem 0 !important;
+  font-family: neue-haas-grotesk-text !important;
+  font-weight: bold;
+  font-size: 1.25rem !important;
+  line-height: 1.7() !important;
+  color: #2a2a2a;
 
 }
 
 article h3 {
   margin: 0 !important;
-  font-family: orpheuspro, serif;
+  font-family: linotype-didot, serif;
   font-weight: 500;
   font-size: 1.25rem !important;
   line-height: 1 !important;
-  color: #333;
+  color: #2a2a2a;
 }
 
 article h5{
   margin: 0 !important;
-  margin-top: 0.5rem !important;
-  font-family: orpheuspro, serif;
+  padding: 0 !important;
+  font-family: neue-haas-grotesk-text !important;
+  font-weight: normal;
   font-size: 1.25rem !important;
-  font-weight: 500;
-  font-style: italic;
-  letter-spacing: 0.028rem ;
-  color: #000;
-  line-height: 1 !important;
+  line-height: 1.75 !important;
+  color: #2a2a2a !important;
 }
 
 article h5:first-of-type {
-  margin-top: 1rem !important;
+
 }
 
 article h5:last-of-type {
-  margin-bottom: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
 article h6{
   margin: 0 !important;
   margin-top: 0.5rem !important;
-  font-family: orpheuspro, serif;
+  font-family: linotype-didot, serif;
   font-size: 1.25rem !important;
   font-weight: 500;
   font-style: normal;
-  letter-spacing: 0.028rem ;
-  color: #000;
+  color: #2a2a2a;
   line-height: 1 !important;
 }
 
@@ -166,6 +191,32 @@ article h6:last-of-type {
 .footer {
   padding: 3rem 0 !important;
   background: none !important;
+}
+
+.page-transition-enter {
+  opacity: 0;
+  transform: translate3d(0, 20px, 0);
+}
+.page-transition-enter-active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 400ms, transform 400ms;
+}
+.page-transition-exit {
+  opacity: 1;
+}
+.page-transition-exit-active {
+  opacity: 0;
+  transition: opacity 400ms;
+}
+.loading-indicator-appear,
+.loading-indicator-enter {
+  opacity: 0;
+}
+.loading-indicator-appear-active,
+.loading-indicator-enter-active {
+  opacity: 1;
+  transition: opacity 400ms;
 }
 
 @media (max-width: 414px) {

@@ -13,7 +13,7 @@ const Home = ({ home }) => (
         <p>{RichText.asText(home.data.author)}</p>
         </blockquote>
         <article>
-        <div class="meta"><h1>{RichText.asText(home.data.title)}</h1></div>
+        <h1>{RichText.asText(home.data.title)}</h1>
                 {RichText.render(home.data.content)}
         </article>
         </Container>

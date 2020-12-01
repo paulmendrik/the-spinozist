@@ -11,10 +11,8 @@ const Post = ({ post }) => (
     <DefaultLayout>
     <Container>
         <article>
-    <div className="meta">
     <h1>{RichText.asText(post.data.title)}</h1>
         <p className="date">{Date(post.data.date).toDateString()}</p>
-    </div>
             {RichText.render(post.data.intro)}
             {RichText.render(post.data.main)}
     </article>

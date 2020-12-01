@@ -6,5 +6,5 @@ import { Button } from 'rbx';
 export default function Back() {
     const router = useRouter()
 
-    return <Button><a onClick={() => router.push('/blog')}>Back</a></Button>
+    return <Button className="button is-medium"><a onClick={() => router.push('/blog')}>Back</a></Button>
 }

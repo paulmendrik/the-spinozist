@@ -9,7 +9,7 @@ const About = ({ about }) => (
     <DefaultLayout>
         <Container>
             <article>
-                <div class="meta"><h1>{RichText.asText(about.data.title)}</h1></div>
+                <h1>{RichText.asText(about.data.title)}</h1>
                 {RichText.render(about.data.content)}
             </article>
         </Container>

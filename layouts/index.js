@@ -6,7 +6,7 @@ import {Column,Container} from "rbx";
 const DefaultLayout = ({ children }) => (
         <div>
         <Column.Group centered>
-        <Column size="four-fifths">
+        <Column size="two-thirds">
                 <Container> <Navigation/></Container>
         <main>{children}</main>
                 <Container><Footer /></Container>
