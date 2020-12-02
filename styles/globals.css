@@ -36,6 +36,29 @@ a.navbar-item {
   color: #2a2a2a !important;
 }
 
+.navbar-burger, .navbar-burger.is-active {
+  margin-top: -1.5rem !important;
+  right: 0.5rem !important;
+  background-color: black !important;
+  height: 2.25rem !important;
+  width: 2.25rem !important;
+  border-radius: 100%;
+  color: white !important;
+}
+
+.navbar-burger:hover {
+  background-color: none !important;
+}
+
+.navbar-burger span, .navbar-burger.is-active span {
+  background-color: white !important;
+  opacity: 1 !important;
+}
+
+.navbar-burger.is-active span:nth-child(2) {
+  opacity: 0 !important;
+}
+
 blockquote  {
   margin:  3rem 0 !important;
   background: none !important;
@@ -219,13 +242,63 @@ article h6:last-of-type {
   transition: opacity 400ms;
 }
 
+@media (max-width: 1366px) {
+  a.navbar-item h1 { font-size: 4rem !important;}
+  main { padding: 0 1rem !important;}
+  blockquote h3 {font-size: 1.5rem !important;line-height: 1.3;}
+  blockquote p  {font-size: 1.25rem !important;line-height: 1.3;}
+  article { padding: 0; margin: 1rem 0; }
+  article .meta h1 { margin-bottom: 0.75rem !important; font-size: 1.5rem !important; line-height: 1.25 !important;}
+  article h2 {font-size: 1.25rem !important;line-height: 2 !important;}
+  article p, .excerpt p{ margin: 0 !important;font-size: 1rem !important;line-height: 1.25 !important;}
+  p.date {font-size: 0.75rem !important;}
+}
+
+@media (max-width: 1280px) {
+  a.navbar-item h1 { font-size: 3.5rem !important;}
+  main { padding: 0 1rem !important;}
+  blockquote h3 {font-size: 1.5rem !important;line-height: 1.3;}
+  blockquote p  {font-size: 1.25rem !important;line-height: 1.3;}
+  article { padding: 0; margin: 1rem 0; }
+  article .meta h1 { margin-bottom: 0.75rem !important; font-size: 1.5rem !important; line-height: 1.25 !important;}
+  article h2 {font-size: 1.25rem !important;line-height: 2 !important;}
+  article p, .excerpt p{ margin: 0 !important;font-size: 1rem !important;line-height: 1.25 !important;}
+  p.date {font-size: 0.75rem !important;}
+}
+
+@media (max-width: 1112px) {
+  a.navbar-item h1 { font-size: 3.5rem !important;}
+  main { padding: 0 1rem !important;}
+  blockquote h3 {font-size: 1.5rem !important;line-height: 1.3;}
+  blockquote p  {font-size: 1.25rem !important;line-height: 1.3;}
+  article { padding: 0; margin: 1rem 0; }
+  article .meta h1 { margin-bottom: 0.75rem !important; font-size: 1.5rem !important; line-height: 1.25 !important;}
+  article h2 {font-size: 1.25rem !important;line-height: 2 !important;}
+  article p, .excerpt p{ margin: 0 !important;font-size: 1rem !important;line-height: 1.25 !important;}
+  p.date {font-size: 0.75rem !important;}
+}
+
+@media (max-width: 1024px) {
+  a.navbar-item h1 { font-size: 3rem !important;}
+  .navbar-menu.is-active {box-shadow: none !important;}
+  .navbar-menu.is-active > .navbar-end {text-align: center !important;}
+  main { padding: 0 1rem !important;}
+  blockquote h3 {font-size: 1.5rem !important;line-height: 1.3;}
+  blockquote p  {font-size: 1.25rem !important;line-height: 1.3;}
+  article { padding: 0; margin: 1rem 0; }
+  article .meta h1 { margin-bottom: 0.75rem !important; font-size: 1.5rem !important; line-height: 1.25 !important;}
+  article h2 {font-size: 1.25rem !important;line-height: 2 !important;}
+  article p, .excerpt p{ margin: 0 !important;font-size: 1rem !important;line-height: 1.25 !important;}
+  p.date {font-size: 0.75rem !important;}
+}
+
 @media (max-width: 414px) {
   a.navbar-item h1 { font-size: 2.5rem !important;}
   main { padding: 0 1rem !important;}
   blockquote h3 {font-size: 1.5rem !important;line-height: 1.3;}
   blockquote p  {font-size: 1.25rem !important;line-height: 1.3;}
   article { padding: 0; margin: 1rem 0; }
-  article .meta h1 { margin-bottom: 0.75rem !important; font-size: 1.5rem !important; line-height: 1.25 !important;}
+  article h1 { margin-bottom: 0.75rem !important; font-size: 1.5rem !important; line-height: 1.25 !important;}
   article h2 {font-size: 1.25rem !important;line-height: 2 !important;}
   article p, .excerpt p{ margin: 0 !important;font-size: 1rem !important;line-height: 1.25 !important;}
   p.date {font-size: 0.75rem !important;}
@@ -238,20 +311,20 @@ article h6:last-of-type {
   blockquote h3 {font-size: 1.5rem !important;line-height: 1.3;}
   blockquote p  {font-size: 1.25rem !important;line-height: 1.3;}
   article { padding: 0; margin: 1rem 0; }
-  article .meta h1 { margin-bottom: 0.75rem !important; font-size: 1.5rem !important; line-height: 1.25 !important;}
+  article h1 { margin-bottom: 0.75rem !important; font-size: 1.5rem !important; line-height: 1.25 !important;}
   article h2 {font-size: 1.25rem !important;line-height: 2 !important;}
   article p, .excerpt p{ margin: 0 !important;font-size: 1rem !important;line-height: 1.25 !important;}
   p.date {font-size: 0.75rem !important;}
 }
 
 @media (max-width: 320px) {
-  a.navbar-item h1 { font-size: 2.5rem !important;}
+  a.navbar-item h1 { font-size: 2.125rem !important;}
   main { padding: 0 1rem !important;}
   blockquote h3 {font-size: 1.5rem !important;line-height: 1.3;}
   blockquote p  {font-size: 1.25rem !important;line-height: 1.3;}
   article { padding: 0; margin: 1rem 0; }
-  article .meta h1 { margin-bottom: 0.75rem !important; font-size: 1.5rem !important; line-height: 1.25 !important;}
-  article h2 {font-size: 1.25rem !important;line-height: 2 !important;}
+  article h1 { margin-bottom: 0.75rem !important; font-size: 1.5rem !important; line-height: 1.25 !important;}
+  article h2 {font-size: 1.125rem !important;line-height: 2 !important;}
   article p, .excerpt p{ margin: 0 !important;font-size: 1rem !important;line-height: 1.25 !important;}
   p.date {font-size: 0.75rem !important;}
 
