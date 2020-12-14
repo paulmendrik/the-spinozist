@@ -124,7 +124,7 @@ article  h1 {
   margin-top: 2rem !important;
   font-family: linotype-didot, serif !important;
   font-size: 3.5rem !important;
-  font-weight: bold !important;
+  font-weight: normal !important;
   line-height: 1.1 !important;
   color: #2a2a2a;
 }
@@ -138,6 +138,7 @@ article p {
   line-height: 1.75 !important;
   color: #2a2a2a !important;
 }
+
 
 
 p.date {

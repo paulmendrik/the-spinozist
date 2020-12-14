@@ -31,7 +31,7 @@ const Blog = ({ posts }) => (
 export async function getServerSideProps() {
     const posts = await client.query(
         Prismic.Predicates.at('document.type', 'post'),
-        { orderings: '[my.post.date desc]' }
+        { orderings : '[my.post.date desc]' }
     )
 
     return { props: { posts } }
